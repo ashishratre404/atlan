@@ -41,7 +41,7 @@ The project is a web-based SQL query playground that allows users to enter, exec
 ## How to install this ReactJS project?
 
 1. Fork this repository, It will make a copy of this repository in your github account.
-2. Clone your fork, use command - `git clone https://github.com/<your username>/hotel-booking.git`.
+2. Clone your fork, use command - `git clone https://github.com/<your username>/atlan.git`.
 3. Install the required packeges to run this project, use this command - `npm install`.
 4. Your good to go, you can run this project by using this command - `npm start`.
 
