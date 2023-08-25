@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Atlan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project is live at : 
 
-## Available Scripts
+## Project overview
 
-In the project directory, you can run:
+The project is a web-based SQL query playground that allows users to enter, execute, and save SQL queries. It primarily focuses on providing a user-friendly interface for interacting with SQL queries and visualizing the query results.
 
-### `npm start`
+### Key features
+* Query Execution and Visualization: Users can enter custom SQL queries in an input field. Upon clicking the "Search" button, the application fetches data from a predefined dataset using GraphQL and displays the query results in a tabular format.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Predefined Queries: Users have the option to select from a list of predefined queries. These queries are presented in a dropdown menu, making it easy for users to explore specific queries without typing them manually.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Query History: The application keeps track of the last five executed queries in a history section. Users can refer to their recent queries and revisit them quickly.
 
-### `npm test`
+* Query Saving: Users can save queries for future reference. The application allows users to save up to 10 queries. Saved queries are visually differentiated with a star icon in the UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* CSV Data Parsing: The application fetches data from a remote CSV file, parses it, and presents it in a tabular format. The data is presented using HTML tables, showing rows and columns with appropriate headers.
 
-### `npm run build`
+* Loading Indicator: While fetching and processing data, a loading indicator is displayed to inform users that the application is working on fetching the results.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Visual Enhancements: The user interface features an Atlan logo and aesthetic elements, including icons, buttons, and layout design, to provide a visually appealing experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+#### Front-End:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* React: The project is built using the React JavaScript library, which is widely used for building user interfaces in web applications.
+* CSS: Cascading Style Sheets are used for styling the user interface and defining the layout and appearance of the application.
+  
+#### Data Fetching and Manipulation:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Axios: Axios is used for making HTTP requests. In this project, it's used to fetch data from a remote CSV file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Icons:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* React Icons: The React Icons library is used to easily integrate icons, enhancing the user interface with visually informative elements.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to install this ReactJS project?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork this repository, It will make a copy of this repository in your github account.
+2. Clone your fork, use command - `git clone https://github.com/<your username>/hotel-booking.git`.
+3. Install the required packeges to run this project, use this command - `npm install`.
+4. Your good to go, you can run this project by using this command - `npm start`.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Note : This is a dummy web application without a real backend or actual data.
