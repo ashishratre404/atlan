@@ -1,6 +1,6 @@
 # Atlan
 
-Project is live at : 
+Project is live at : https://atlan-lac.vercel.app/
 
 ## Project overview
 
