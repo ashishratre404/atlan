@@ -1,0 +1,168 @@
+.search-container {
+  background: #2026d2;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.search-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.input-container {
+  background: #fff;
+  width: 310px;
+}
+
+.search-area input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: transparent;
+  width: 260px;
+}
+
+button {
+  cursor: pointer;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+}
+
+button.save {
+  background: transparent;
+  padding: 0;
+  margin-right: 10px;
+  color: gray;
+}
+
+button.save.saved {
+  color: #2026d2;
+}
+
+select {
+  background: #fff;
+  width: 200px;
+  padding: 5px 3px;
+  border: none;
+  outline: none;
+}
+
+/* Display data  */
+
+.data {
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.result-scroll {
+  height: 400px;
+  max-width: 100%;
+  overflow: auto;
+  overflow-x: auto;
+  min-width: 1000px;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1000px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.data .loading {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.data .loading svg {
+  animation: rotate 1s linear infinite;
+}
+/* Customize the scrollbar */
+
+/* Track */
+.result-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.result-scroll::-webkit-scrollbar-track {
+  background: rgb(229, 227, 227);
+}
+
+/* Handle */
+.result-scroll::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.result-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(46, 46, 46);
+}
+
+/* History  */
+
+.history,
+.saved-query {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.history-item,
+.query-item {
+  background: aliceblue;
+  padding: 10px 5px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.history p,
+.saved-query p {
+  margin-top: 5px;
+  margin-left: 10px;
+}
